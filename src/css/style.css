@@ -83,7 +83,7 @@
   left: 50%;
   background: rgba(5, 2, 19, 0.76);
   font-size: 16px;
-  width: 20vh;
+  min-width: 20vh;
   height: 20vh;
   border-radius: 50%;
   border: 2px solid white;
@@ -239,6 +239,18 @@
   width: 100%;
 }
 
+@media (orientation: portrait) and (max-width: 320px) {
+  .dots {
+    display: none;
+  }
+  .category__item--title {
+    font-size: 20px;
+  }
+  .sliderTxt {
+    font-size: 14px;
+  }
+}
+
 @media (orientation: landscape) and (min-width: 1026px) {
   .menuSection {
     z-index: 1;
@@ -315,6 +327,9 @@
   }
   .category__item--btn {
     position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     top: 50%;
     left: 50%;
     height: 10vh;

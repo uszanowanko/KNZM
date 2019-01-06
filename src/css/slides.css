@@ -4,17 +4,17 @@
 
 .slider {
   width: 100vw;
-  height: 50vh;
+  height: 130vh;
   position: relative;
   overflow: hidden;
-  margin: 60vh 0 0 0;
+  margin: 60vh 0 10vh 0;
 }
 
 .sliderImg {
   position: absolute;
   width: 100vw;
   height: 50vh;
-  top: 50%;
+  top: 50vh;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -23,11 +23,12 @@
 }
 
 .sliderTextH1 {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: 40vw;
-  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 0%;
+  width: 100vw;
+  height: 70vh;
+  font-size: 16px;
   color: white;
   font-weight: 300;
   background: rgba(0, 0, 0, 0.959);
@@ -88,7 +89,7 @@
   .sliderImg {
     position: absolute;
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -99,6 +100,7 @@
     top: 40%;
     left: 50%;
     width: 40vw;
+    height: 40vh;
     font-size: 16px;
     color: white;
     font-weight: 300;

@@ -110,11 +110,20 @@ class Main extends Component {
             <li className="siteMapContact__item list__itemContact"><i className="font__contact fas fa-envelope"></i>
                 knzm@math.edu.pl
             </li>
-            <li className="siteMapContact__item list__itemContact"><i className="font__contact fab fa-facebook-f" ></i>
+            {/* <li className="siteMapContact__item list__itemContact"><i className="font__contact fab fa-facebook-f" ></i>
             <a target="_blank" href="href ='https://www.facebook.com/KNZM.UWr/'">Facebook</a>
                 
-            </li>
+            </li> */}
         </ul>
+        <section className="socialMedia">
+                <h1 className='socialMedia__title--fb'>Odwiedź nas na Facebook'u!</h1>
+                <div className="fb-page" data-href="https://www.facebook.com/KNZM.UWr/" data-tabs="timeline" data-height="70"
+                    data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                    data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/KNZM.UWr/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KNZM.UWr/">Koło
+                            Naukowe Zastosowań Matematyki</a></blockquote>
+                </div>
+            </section>
     </section>
             <footer className="footerSection">
                 <p className="footer__txt--copyRight">&copy; 2019
