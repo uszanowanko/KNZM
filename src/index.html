@@ -1,0 +1,100 @@
+<!-- https://www.udemy.com/react-the-complete-guide-incl-redux/ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>knzm</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="css/styleknzm.css"> -->
+  <link rel="stylesheet" href="css/slides.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/articles.css">
+  <link rel="stylesheet" href="css/logo.css">
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+
+<body>
+    <nav class="mainNav landscape">
+        <ul class="mainNav__list">
+            <li class="mainNav__listItem"><a class="mainNav__link" href="#">Start</a></li>
+            <li class="mainNav__listItem">
+                <div class="mainNav__link--arrow"> Menu <div class="arrow-down-box">
+                        <div class="arrow-down"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="mainNav__listItem"><a class="mainNav__link" href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+    <!-- portrait -->
+    <nav class="mainNav portrait">
+        <ul class="mainNav__list">
+            <li class="mainNav__listItem"><a class="mainNav__link--arrow" href="#">
+                    <i class="fas fa-bars "></i>
+                    <i class="fas fa-times off"></i>
+                </a></li>
+
+
+            </li>
+
+        </ul>
+    </nav>
+    <!-- MENU OFF V -->
+    <nav class="mainNav--off off">
+        <ul class="mainNav__list--off">
+            <div class="mainNav__category">
+                <li class="mainNav__listItem--off"><a class="mainNav__link--off portrait" href="#">Start</a></li>
+                <li class="mainNav__listItem--off"><a class="mainNav__link--off portrait" href="#">Kontakt</a></li>
+
+            </div>
+            <div class="mainNav__category">
+                <li class="mainNav__listItem--off"><a id="menuSection" class="mainNav__link--off" href="#">O nas</a></li>
+                <li class="mainNav__listItem--off"><a id="buttonSection" class="mainNav__link--off" href="#">Nasza działalność</a></li>
+                <li class="mainNav__listItem--off"><a id="hoverEffectSection" class="mainNav__link--off" href="#">Zarząd</a></li>
+            </div>
+            <div class="mainNav__category">
+                <li class="mainNav__listItem--off"><a id="signSection" class="mainNav__link--off" href="#">Zostań partnerem
+                    </a></li>
+                <li class="mainNav__listItem--off"><a id="signSection" class="mainNav__link--off" href="#">Dołącz do nas
+                    </a></li>
+            </div>
+            <div class="mainNav__category">
+                <li class="mainNav__listItem--off"><a id="popubSection" class="mainNav__link--off" href="#">Aktualności</a></li>
+                
+            </div>
+            <div class="mainNav__category">
+                <li class="mainNav__listItem--off"><a id="animationSection" class="mainNav__link--off" href="#">Konferencja</a></li>
+            
+            </div>
+        </ul>
+    </nav>
+  
+     
+  <div id="root"></div>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="menu.js"></script>
+  <script src="App.js" type="text/babel"></script>
+  <script src="CategoryPanel.js" type="text/babel"></script>
+  <script src="CategoryPartner.js" type="text/babel"></script>
+  <script src="CategoryAboutUs.js" type="text/babel"></script>
+  <script src="CategoryActivity.js" type="text/babel"></script>
+  <script src="CategoryAdministration.js" type="text/babel"></script>
+  <script src="CategoryAdministrationPerson.js" type="text/babel"></script>
+  <script src="CategoryConference.js" type="text/babel"></script>
+  <script src="CategoryCurrency.js" type="text/babel"></script>
+  <script src="CategoryCurrencyArticle.js" type="text/babel"></script>
+  <script src="CategoryJoinUs.js" type="text/babel"></script>
+  <script src="Logo.js" type="text/babel"></script>
+  <!-- <script src="Nav.js" type="text/babel"></script> -->
+  <script src="Slide.js" type="text/babel"></script>
+  <script src="Slider.js" type="text/babel"></script>
+  <script src="index.js" type="text/babel"></script>
+
+</body>
+
+</html>

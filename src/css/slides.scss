@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+  }
+
+  .slider {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    margin: 60vh 0 0 0 ;
+  }
+
+  .sliderImg {
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../img/people.jpg') center;
+    background-size: cover;
+  
+  
+  }
+  .sliderTextH1 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 40vw;
+    // transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    // font-family: tahoma, sans-serif;
+    background: rgba(0, 0, 0, 0.959);
+    padding: 20px;
+    margin: 0 20px;
+   
+  }
+ .sliderH1 {
+    font-size: 32px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 20px;
+    &::after{
+      display: block;
+      content: '';
+      height: 2px;
+      width: 100%;
+      background: white;
+      margin-top: 20px;
+    }
+  }
+ 
+  
+  .dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+
+  .dots span {
+    display: inline-block;
+    background-color: transpatent;
+    margin: 0 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    // box-shadow: 0 0 0 5px white;
+  }
+
+  .dots span.active {
+    background-color: white;
+    // border: 1px solid rgb(253, 74, 4);
+    // box-shadow: 0 0 0 5px white, 0 0 3px 10px red;
+  }
+  @media(orientation:landscape) and (min-width:  1026px) {
+    .slider {
+      height: 100vh;
+      overflow: hidden;
+      margin: 0;
+    }
+    .mainHeader .off{
+      height: 50vh;
+      overflow: hidden;
+      
+    }
+    .sliderImg {
+      position: absolute;
+      width: 100vw;
+      min-height: 100vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+      // opacity: 0.6;
+    }
+    .sliderTextH1 {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      width: 40vw;
+      // transform: translate(-50%, -50%);
+      font-size: 16px;
+      color: white;
+      font-weight: 300;
+      // font-family: tahoma, sans-serif;
+      background: rgba(10, 9, 39, 0.74);
+      padding: 20px;
+      margin: 0 20px;
+     
+    }
+   .sliderH1 {
+      font-size: 32px;
+      color: white;
+      font-weight: 300;
+      text-transform: uppercase;
+      padding: 20px;
+      &::after{
+        display: block;
+        content: '';
+        height: 2px;
+        width: 100%;
+        background: white;
+        margin-top: 20px;
+      }
+    }
+   
+ 
+}

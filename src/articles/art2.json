@@ -1,0 +1,8 @@
+{
+    "title": "Article 2",
+    "img": "./img/headerImg.jpg",
+    "text": "Second article is also about nothing.",
+    "author":"unknown",
+    "year":"2019",
+    "month":"march"
+}

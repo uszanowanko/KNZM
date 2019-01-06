@@ -1,0 +1,24 @@
+{
+  "name": "firstwebpacklesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery-3.3.1.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonikaZiaja/Ideas-Inspirations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonikaZiaja/Ideas-Inspirations/issues"
+  },
+  "homepage": "https://github.com/MonikaZiaja/Ideas-Inspirations#readme",
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

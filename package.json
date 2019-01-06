@@ -1,20 +1,24 @@
 {
-  "name": "knzm",
-  "version": "0.1.0",
+  "homepage": "https://monikaziaja.github.io/KNZM/",
+  "name": "react_spa",
+  "version": "0.1.2",
+  "main": "build/index.html",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "gh-pages": "^2.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-lorem-component": "^0.13.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
