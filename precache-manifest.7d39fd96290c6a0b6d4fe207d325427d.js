@@ -57,15 +57,15 @@ self.__precacheManifest = [
   },
   {
     "revision": "a4272d18f2041e2e53a7a62937de9c68",
+    "url": "/KNZM/static/media/admin3.a4272d18.jpg"
+  },
+  {
+    "revision": "a4272d18f2041e2e53a7a62937de9c68",
     "url": "/KNZM/static/media/admin.a4272d18.jpg"
   },
   {
     "revision": "a4272d18f2041e2e53a7a62937de9c68",
     "url": "/KNZM/static/media/admin4.a4272d18.jpg"
-  },
-  {
-    "revision": "a4272d18f2041e2e53a7a62937de9c68",
-    "url": "/KNZM/static/media/admin3.a4272d18.jpg"
   },
   {
     "revision": "39b8e7b64160a86b7214799766808408",
