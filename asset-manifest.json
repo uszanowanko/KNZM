@@ -1,7 +1,7 @@
 {
-  "main.css": "/KNZM/static/css/main.c7d04ca1.chunk.css",
-  "main.js": "/KNZM/static/js/main.83d1cc5e.chunk.js",
-  "main.js.map": "/KNZM/static/js/main.83d1cc5e.chunk.js.map",
+  "main.css": "/KNZM/static/css/main.813d5ece.chunk.css",
+  "main.js": "/KNZM/static/js/main.8da35753.chunk.js",
+  "main.js.map": "/KNZM/static/js/main.8da35753.chunk.js.map",
   "static/js/1.6c3603f2.chunk.js": "/KNZM/static/js/1.6c3603f2.chunk.js",
   "static/js/1.6c3603f2.chunk.js.map": "/KNZM/static/js/1.6c3603f2.chunk.js.map",
   "runtime~main.js": "/KNZM/static/js/runtime~main.b91726c4.js",
@@ -10,8 +10,8 @@
   "static/media/conferenceImg.jpg": "/KNZM/static/media/conferenceImg.c6c9a9d8.jpg",
   "static/media/style.css": "/KNZM/static/media/contact.400b379d.jpg",
   "static/media/aboutUsImg.jpg": "/KNZM/static/media/aboutUsImg.1891225e.jpg",
-  "static/css/main.c7d04ca1.chunk.css.map": "/KNZM/static/css/main.c7d04ca1.chunk.css.map",
+  "static/css/main.813d5ece.chunk.css.map": "/KNZM/static/css/main.813d5ece.chunk.css.map",
   "index.html": "/KNZM/index.html",
-  "precache-manifest.73338b40fc013bfa39dac73f0831eb83.js": "/KNZM/precache-manifest.73338b40fc013bfa39dac73f0831eb83.js",
+  "precache-manifest.2f18e6b8d0cd996f19a78fa1812ffc7b.js": "/KNZM/precache-manifest.2f18e6b8d0cd996f19a78fa1812ffc7b.js",
   "service-worker.js": "/KNZM/service-worker.js"
 }
