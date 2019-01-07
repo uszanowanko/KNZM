@@ -53,7 +53,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "a4272d18f2041e2e53a7a62937de9c68",
-    "url": "/KNZM/static/media/admin4.a4272d18.jpg"
+    "url": "/KNZM/static/media/admin3.a4272d18.jpg"
   },
   {
     "revision": "a4272d18f2041e2e53a7a62937de9c68",
@@ -61,14 +61,14 @@ self.__precacheManifest = [
   },
   {
     "revision": "a4272d18f2041e2e53a7a62937de9c68",
-    "url": "/KNZM/static/media/admin3.a4272d18.jpg"
-  },
-  {
-    "revision": "a4272d18f2041e2e53a7a62937de9c68",
     "url": "/KNZM/static/media/admin2.a4272d18.jpg"
   },
   {
-    "revision": "4364287eed4a7b4e6400b2bfc7236ecc",
+    "revision": "a4272d18f2041e2e53a7a62937de9c68",
+    "url": "/KNZM/static/media/admin4.a4272d18.jpg"
+  },
+  {
+    "revision": "da8086aaccc1a9a3608c94faf8cbe616",
     "url": "/KNZM/index.html"
   }
 ];
